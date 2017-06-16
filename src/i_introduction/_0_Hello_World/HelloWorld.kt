@@ -24,8 +24,10 @@ fun todoTask0(): Nothing = TODO(
     """,
     documentation = doc0(),
     references = { task0(); "OK" }
+
+
 )
 
 fun task0(): String {
-    return todoTask0()
+    return "OK"
 }
